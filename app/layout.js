@@ -20,7 +20,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${inter.className} ${raleway.className}`}>
+    <html lang="en" className={`${inter.variable} ${raleway.variable}`}>
       <body className={"antialiased"}>
       {children}
       </body>

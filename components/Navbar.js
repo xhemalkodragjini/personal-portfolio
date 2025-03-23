@@ -16,13 +16,13 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-0 w-full bg-[#EBEBEB] shadow-md z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="text-xl font-bold text-gray-900">
             X K O
           </Link>
 
-          <div className="hidden md:flex space-x-8">
+          <div className="hidden md:flex space-x-12">
             {menuItems.map((item) => (
               <NavItem key={item.name} href={item.href} name={item.name} />
             ))}
