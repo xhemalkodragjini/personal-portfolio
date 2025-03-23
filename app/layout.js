@@ -1,14 +1,16 @@
-import { Raleway, Inter } from "next/font/google";
 import "./globals.css";
+import { Raleway, Inter } from "next/font/google";
 
 const raleway = Raleway({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"]
+  weight: ["400", "500", "600", "700"],
+  variable: '--font-raleway',
 });
 
 const inter = Inter({
   subsets: ["latin"],
-  weight: ["400"]
+  weight: ["300", "400"],
+  variable: '--font-inter',
 });
 
 export const metadata = {
@@ -18,11 +20,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body
-        className={`${raleway.className} ${inter.className} antialiased`}
-      >
-        {children}
+    <html lang="en" className={`${inter.className} ${raleway.className}`}>
+      <body className={"antialiased"}>
+      {children}
       </body>
     </html>
   );
