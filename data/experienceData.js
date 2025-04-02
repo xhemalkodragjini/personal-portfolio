@@ -1,7 +1,7 @@
 const experienceData = [
     {
       organization: "Deutsche Bank",
-      logo: "/assets/Deutsche_Bank_logo.png",
+      logo: "/assets/experience/Deutsche_Bank_logo.png",
       title: "Cloud Platform Engineer",
       location: "Berlin, Germany",
       duration: "July 2023 - December 2024",
@@ -9,7 +9,7 @@ const experienceData = [
     },
     {
       organization: "Deutsche Börse Group",
-      logo: "/assets/Deutsche_Börse_Group_Logo.png",
+      logo: "/assets/experience/Deutsche_Börse_Group_Logo.png",
       title: "Graduate IT Trainee",
       location: "Frankfurt am Main, Germany",
       duration: "October 2021 - March 2023",
@@ -17,7 +17,7 @@ const experienceData = [
     },
     {
       organization: "IQ Wireless",
-      logo: "/assets/iq_wireless_logo.png",
+      logo: "/assets/experience/iq_wireless_logo.png",
       title: "AI Software Engineer",
       location: "Berlin, Germany",
       duration: "April 2021 - September 2021",
@@ -25,7 +25,7 @@ const experienceData = [
     },
     {
       organization: "IQ Wireless",
-      logo: "/assets/iq_wireless_logo.png",
+      logo: "/assets/experience/iq_wireless_logo.png",
       title: "Machine Learning Intern",
       location: "Berlin, Germany",
       duration: "October 2020 - March 2021",
