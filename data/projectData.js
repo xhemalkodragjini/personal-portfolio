@@ -1,9 +1,18 @@
 const projectData = [
   {
+    title: "Chemotherapy Resistance Predictor",
+    logo: "/assets/projects/chemoresistance.png",
+    description: "A Multi-Head Attention network for predicting chemotherapy resistance based on proteomics data.",
+    details: ["This project involved training a Multi-Head Attention network with 13 heads covering 13 dimensions of the protemics pathways dataset.", "A baseline neural network was also trained to compare results from both models, and Matthews Correlation Coefficient was used to evaluate the predictions.", "The data contained noisy instances, which could not be processed due to lack of domain expertise. This led to low scores for both models."],
+    code: "https://github.com/xhemalkodragjini/Chemotherapy-Resistance-Predictor",
+    demo: "",
+    skills: ["PyTorch", "Attention", "Matplotlib", "Git"]
+  },
+  {
     title: "News Toxicity Classifier",
     logo: "/assets/projects/news_classifier.png",
     description: "A fine-tuned Transformer (BERT) model for detecting toxic news headlines, embedded in a Streamlit app.",
-    details: ["The Holocaustopedia Project is a web-based platform that provides comprehensive information about the Holocaust in the form of articles.", "The tool was designed to be user-friendly and accessible, ensuring that users could easily navigate via their laptops, tablets, or mobile phones.", "Technologies Used: HTML, CSS, JavaScript."],
+    details: ["The BERT-Tiny Transformer was fine-tuned to predict the toxicity of news headlines.", "The model training and testing metrics were logged with Weights & Biases.", "A Streamlit-based UI was developed to interact with the model."],
     code: "https://github.com/xhemalkodragjini/Toxicity-Classifier",
     demo: "https://toxicity-classifier.streamlit.app/",
     skills: ["Transformers", "BERT", "HuggingFace", "Weights & Biases"]
@@ -12,7 +21,7 @@ const projectData = [
     title: "Predicting Autism through Machine Learning",
     logo: "/assets/projects/predicting_autism.png",
     description: "A machine learning approach for early ASD screening using behavioral and demographic data.",
-    details: ["The Holocaustopedia Project is a web-based platform that provides comprehensive information about the Holocaust in the form of articles.", "The tool was designed to be user-friendly and accessible, ensuring that users could easily navigate via their laptops, tablets, or mobile phones.", "Technologies Used: HTML, CSS, JavaScript."],
+    details: ["The ASD Prediction project aims to predict Autism Spectrum Disorder in children by analyzing responses from a set of diagnostic questions.", "Various machine learning classifiers were trained and the Logistic Regression was selected due to higher accuracy (96%).", "The model was trained on a dataset containing responses from standardized tests, allowing it to predict the likelihood of ASD in early childhood."],
     code: "https://github.com/xhemalkodragjini/Predicting-Autism-Spectrum-Disorder",
     demo: "",
     skills: ["Machine Learning", "Python", "Pandas", "Scikit-learn", "Matplotlib"]
