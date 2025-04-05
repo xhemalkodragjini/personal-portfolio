@@ -8,7 +8,7 @@ export default function Contact() {
                 <p className="text-lg text-gray-400 mb-10">
                     I am always open to new opportunities, collaborations, or just a chat. Feel free to reach out.
                 </p>
-                <div className="flex justify-center gap-20 text-gray-700 dark:text-gray-200 text-lg">
+                <div className="flex justify-center gap-20 sm:gap-5 text-black-700 dark:text-gray-200 text-lg">
                     <a
                         href="mailto:xhemal.kodragjini98@gmail.com"
                         className="flex items-center hover:text-blue-500 transition"
