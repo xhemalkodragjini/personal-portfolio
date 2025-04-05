@@ -6,7 +6,7 @@ export default function Contact() {
             <div className="max-w-2xl mx-auto text-center">
                 <h2 className="text-4xl font-semibold mb-6">📬 Get in Touch</h2>
                 <p className="text-lg text-gray-400 mb-10">
-                    I'm always open to new opportunities, collaborations, or just a chat. Feel free to reach out.
+                    I am always open to new opportunities, collaborations, or just a chat. Feel free to reach out.
                 </p>
                 <div className="flex justify-center gap-20 text-gray-700 dark:text-gray-200 text-lg">
                     <a
