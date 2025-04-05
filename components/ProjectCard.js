@@ -7,7 +7,7 @@ export default function ProjectCard({ title, logo, description, details, code, d
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="relative p-6 mb-6 mr-6 bg-white shadow-lg rounded-lg overflow-hidden w-full">
+    <div className="relative p-6 mb-6 mr-6 bg-[#f3f3f3] shadow-lg rounded-lg overflow-hidden w-full">
       <CardImage logo={logo} />
       <div className="flex-1 mt-10">
         <h3 className="text-xl font-light">{title}</h3>
