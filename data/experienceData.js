@@ -2,7 +2,7 @@ const experienceData = [
     {
       organization: "Aleph Alpha",
       logo: "/assets/experience/Logo_Aleph_Alpha.png",
-      title: "Cloud Platform Engineer",
+      title: "AI Working Student",
       location: "Berlin, Germany",
       duration: "June 2025 - Ongoing",
       skills: ["Python", "LLMs", "RAG", "Langfuse"],
