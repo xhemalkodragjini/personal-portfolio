@@ -1,7 +1,7 @@
 const projectData = [
   {
     title: "Universal Differential Equations for Disentangling Crosstalk",
-    logo: "/assets/projects/thesis.jpeg",
+    logo: "/assets/projects/thesis.jpg",
     description: "A hybrid modeling framework combining mechanistic ODEs and neural networks to infer signaling pathway crosstalk from single-cell time-series data.",
     details: [
       "Trained hybrid mechanistic - ML models(Universal Differential Equations) to learn unknown biological interactions (crosstalk) from time - series data.",
