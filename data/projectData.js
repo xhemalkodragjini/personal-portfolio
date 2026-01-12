@@ -1,5 +1,26 @@
 const projectData = [
   {
+    title: "Universal Differential Equations for Disentangling Crosstalk",
+    logo: "/assets/projects/thesis.jpeg",
+    description: "A hybrid modeling framework combining mechanistic ODEs and neural networks to infer signaling pathway crosstalk from single-cell time-series data.",
+    details: [
+      "Trained hybrid mechanistic - ML models(Universal Differential Equations) to learn unknown biological interactions (crosstalk) from time - series data.",
+      "Applied symbolic regression(PySR) to extract mathematical expressions from neural network components.",
+      "Evaluated the approach through both synthetically - generated data and real experiments.",
+      "Built an end - to - end JAX pipeline for UDE training, model interpretability and evaluation"
+    ],
+    code: "https://github.com/xhemalkodragjini/master-thesis-ude-for-crosstalk",
+    demo: "",
+    skills: [
+      "Universal Differential Equations",
+      "Scientific Machine Learning",
+      "JAX",
+      "Diffrax",
+      "Symbolic Regression",
+      "Computational Biology"
+    ]
+  },
+  {
     title: "Chemotherapy Resistance Predictor",
     logo: "/assets/projects/chemoresistance.png",
     description: "A Multi-Head Attention network for predicting chemotherapy resistance based on proteomics data.",
