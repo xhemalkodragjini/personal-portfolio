@@ -18,7 +18,7 @@ export default function Welcome() {
       </h1>
 
       <p className="max-w-4xl text-[20px] font-inter font-light text-black leading-relaxed px-5 py-10 mb-10 bg-[#fbfbfb]/50 rounded-xl">
-        Hey, I am Xhemal Kodragjini. I am a Data Science student at Freie Universität Berlin with a background in Computer Engineering. My journey has taken me through software engineering, AI, project management, and cloud engineering—but AI has always been the field that challenges and excites me the most. This space is where I document my work, ideas, and ongoing explorations in AI and beyond.
+        Hey, my name is Xhemal Kodragjini. I am a Machine Learning Engineer with 4+ years of industry experience across ML/AI engineering, Cloud, and MLOps. By expanding my role beyond core ML into cloud and deployment work, I’ve built a well-rounded skill set and can support the full ML lifecycle: from research to production. With an MSc in Data Science, I bring both theoretical foundations and practical engineering experience, and I’m looking to continue growing as an ML/AI Engineer.
       </p>
       <div className="flex space-x-15">
         <a
