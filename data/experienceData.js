@@ -1,10 +1,18 @@
 const experienceData = [
     {
+      organization: "Deloitte",
+      logo: "/assets/experience/deloitte_logo.svg",
+      title: "AI Solution Engineer",
+      location: "Berlin, Germany",
+      duration: "May 2026 - Ongoing",
+      skills: ["Python", "AI Agents", "Google ADK", "Agent Skills", "Agentic Workflows"],
+    },
+    {
       organization: "Aleph Alpha",
       logo: "/assets/experience/Logo_Aleph_Alpha.png",
-      title: "AI Working Student",
+      title: "AI Engineer (part-time)",
       location: "Berlin, Germany",
-      duration: "June 2025 - Ongoing",
+      duration: "June 2025 - March 2026",
       skills: ["Python", "LLMs", "RAG", "Langfuse"],
     },
     {

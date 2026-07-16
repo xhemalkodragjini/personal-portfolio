@@ -13,21 +13,21 @@ export default function Welcome() {
         />
       </div>
 
-      <h1 style={{ fontFamily: 'Raleway, sans-serif' }} className="mt-10 mb-10 text-3xl sm:text-4xl font-bold text-black">
+      <h1 style={{ fontFamily: 'Raleway, sans-serif' }} className="mt-10 mb-10 text-3xl sm:text-4xl font-bold text-neutral-900">
         Welcome to my space!
       </h1>
 
-      <p className="max-w-4xl text-[20px] font-inter font-light text-black leading-relaxed px-5 py-10 mb-10 bg-[#fbfbfb]/50 rounded-xl">
-        Hey, my name is Xhemal Kodragjini. I am a Machine Learning Engineer with 4+ years of industry experience across ML/AI engineering, Cloud, and MLOps. By expanding my role beyond core ML into cloud and deployment work, I’ve built a well-rounded skill set and can support the full ML lifecycle: from research to production. With an MSc in Data Science, I bring both theoretical foundations and practical engineering experience, and I’m looking to continue growing as an ML/AI Engineer.
+      <p className="max-w-4xl text-[20px] font-inter font-light text-neutral-700 leading-relaxed px-5 py-10 mb-10 bg-white/60 rounded-xl">
+        Hey, my name is Xhemal Kodragjini. I am an AI Solution Engineer at Deloitte in Berlin, working on AI agents and agentic workflows. With 4+ years of industry experience across ML/AI engineering, Cloud, and MLOps, and a Master&rsquo;s degree in Data Science, I bring together practical engineering and research-driven thinking to build AI systems that hold up in the real world.
       </p>
-      <div className="flex space-x-15">
+      <div className="flex space-x-6">
         <a
           href="/assets/CV_Xhemal_Kodragjini.pdf"
           download="CV_Xhemal_Kodragjini.pdf"
-          className="px-5 py-3 bg-[#FF8686] text-white rounded-lg hover:bg-[#FF4343] transition"
+          className="px-5 py-3 bg-neutral-900 text-white rounded-lg hover:bg-neutral-700 transition"
         >Download CV
         </a>
-        <a href="#contact" className="px-5 py-3 bg-[#AED7AE] text-white rounded-lg hover:bg-[#63CD63] transition">
+        <a href="#contact" className="px-5 py-3 border border-neutral-300 text-neutral-900 rounded-lg hover:border-neutral-900 transition">
           Contact me
         </a>
       </div>
