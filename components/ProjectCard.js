@@ -7,24 +7,24 @@ export default function ProjectCard({ title, logo, description, details, code, d
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="relative p-6 mb-6 mr-6 bg-[#f3f3f3] shadow-lg rounded-lg overflow-hidden w-full">
+    <div className="relative h-full flex flex-col p-6 mb-6 mr-6 bg-white border border-neutral-200/70 rounded-2xl overflow-hidden w-full">
       <CardImage logo={logo} />
-      <div className="flex-1 mt-10">
-        <h3 className="text-xl font-light">{title}</h3>
+      <div className="flex-1 flex flex-col mt-10">
+        <h3 className="text-xl font-medium text-neutral-900">{title}</h3>
         {skills && (
-          <div className="mt-7 flex flex-wrap">
+          <div className="mt-5 flex flex-wrap">
             {skills.map((skill, index) => (
               <Badge key={index} text={skill} />
             ))}
           </div>
         )}
-        <div className="text-gray-500 text-sm mt-7 flex flex-wrap items-center gap-x-4">
+        <div className="flex-1 text-neutral-500 text-sm mt-5 flex flex-wrap items-center gap-x-4">
           {description}
         </div>
-        <div className="flex space-x-5 mt-5">
+        <div className="flex space-x-3 mt-5">
           <button
             onClick={() => setIsOpen(true)}
-            className="px-4 py-1 bg-[#AED7AE] text-white rounded-lg hover:bg-[#42D942] transition"
+            className="px-4 py-1.5 text-sm bg-neutral-900 text-white rounded-lg hover:bg-neutral-700 transition"
           >
             Details
           </button>
@@ -32,7 +32,7 @@ export default function ProjectCard({ title, logo, description, details, code, d
             href={code}
             target="_blank"
             rel="noopener noreferrer"
-            className="px-4 py-1 bg-[#DCCB8C] text-white rounded-lg hover:bg-[#C0AA57] transition"
+            className="px-4 py-1.5 text-sm border border-neutral-300 text-neutral-900 rounded-lg hover:border-neutral-900 transition"
           >
             Code
           </a>
@@ -41,7 +41,7 @@ export default function ProjectCard({ title, logo, description, details, code, d
               href={demo}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-4 py-1 bg-[#8FAFFF] text-white rounded-lg hover:bg-[#3C73FF] transition"
+              className="px-4 py-1.5 text-sm border border-neutral-300 text-neutral-900 rounded-lg hover:border-neutral-900 transition"
             >
               Demo
             </a>

@@ -1,5 +1,15 @@
 @import "tailwindcss";
 
+@theme {
+    --color-ink: #171717;
+    --color-accent: #2451ff;
+    --color-accent-soft: #eef2ff;
+}
+
 * {
     font-family: 'Inter';
+}
+
+html {
+    scroll-behavior: smooth;
 }
